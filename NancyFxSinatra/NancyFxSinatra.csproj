@@ -54,10 +54,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="web.config" />
+    <Content Include="ViewEngines\EmptyTemplate.html" />
+    <Content Include="ViewEngines\TemplateWithData.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelloNancy.cs" />
     <Compile Include="RockPaperScissors.cs" />
     <Compile Include="Cookies.cs" />
+    <Compile Include="ViewEngines\ViewTemplates.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewEngines\" />
   </ItemGroup>
 </Project>
