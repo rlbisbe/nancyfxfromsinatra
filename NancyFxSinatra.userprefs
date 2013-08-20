@@ -3,11 +3,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="NancyFxSinatra/ViewEngines/ViewTemplates.cs">
     <Files>
       <File FileName="NancyFxSinatra/web.config" Line="1" Column="1" />
-      <File FileName="NancyFxSinatra/HelloNancy.cs" Line="5" Column="35" />
+      <File FileName="NancyFxSinatra/HelloNancy.cs" Line="1" Column="1" />
       <File FileName="NancyFxSinatra/RockPaperScissors.cs" Line="1" Column="1" />
-      <File FileName="NancyFxSinatra/Cookies.cs" Line="27" Column="1" />
-      <File FileName="NancyFxSinatra/ViewEngines/TemplateWithData.html" Line="12" Column="8" />
-      <File FileName="NancyFxSinatra/ViewEngines/ViewTemplates.cs" Line="23" Column="1" />
+      <File FileName="NancyFxSinatra/Cookies.cs" Line="1" Column="1" />
+      <File FileName="NancyFxSinatra/ViewEngines/TemplateWithData.html" Line="1" Column="1" />
+      <File FileName="NancyFxSinatra/ViewEngines/ViewTemplates.cs" Line="13" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,9 +22,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/robertoluis/Dropbox/Proyectos/NancyFxSinatra/NancyFxSinatra/ViewEngines/ViewTemplates.cs" line="17" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

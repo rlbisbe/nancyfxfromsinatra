@@ -7,6 +7,8 @@ namespace NancyFxSinatra
 		public SampleModule()
 		{
 			Get["/"] = _ => "Hello World!";
+
+			Get ["/hola/{name}"] = _ => "Hola " + _.name;
 		}
 	}
 }
