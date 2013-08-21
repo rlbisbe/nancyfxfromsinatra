@@ -62,6 +62,7 @@
     <Compile Include="RockPaperScissors.cs" />
     <Compile Include="Cookies.cs" />
     <Compile Include="ViewEngines\ViewTemplates.cs" />
+    <Compile Include="Routes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewEngines\" />
