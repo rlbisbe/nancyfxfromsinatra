@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyFxSinatra", "NancyFxSinatra\NancyFxSinatra.csproj", "{39D729F1-A515-4587-9D5C-BA8873178468}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyFxSinatraTests", "NancyFxSinatraTests\NancyFxSinatraTests.csproj", "{6FE631FC-7822-4C42-9D6B-3B0CB71FE7D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{39D729F1-A515-4587-9D5C-BA8873178468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D729F1-A515-4587-9D5C-BA8873178468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D729F1-A515-4587-9D5C-BA8873178468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE631FC-7822-4C42-9D6B-3B0CB71FE7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE631FC-7822-4C42-9D6B-3B0CB71FE7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE631FC-7822-4C42-9D6B-3B0CB71FE7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE631FC-7822-4C42-9D6B-3B0CB71FE7D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = NancyFxSinatra\NancyFxSinatra.csproj
