@@ -48,4 +48,10 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NancyFxSinatra\NancyFxSinatra.csproj">
+      <Project>{39D729F1-A515-4587-9D5C-BA8873178468}</Project>
+      <Name>NancyFxSinatra</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

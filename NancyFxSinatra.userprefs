@@ -1,28 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NancyFxSinatra/ViewEngines/ViewTemplates.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NancyFxSinatraTests/Test.cs">
     <Files>
-      <File FileName="NancyFxSinatra/web.config" Line="1" Column="1" />
+      <File FileName="NancyFxSinatra/web.config" Line="8" Column="19" />
       <File FileName="NancyFxSinatra/HelloNancy.cs" Line="1" Column="1" />
       <File FileName="NancyFxSinatra/RockPaperScissors.cs" Line="1" Column="1" />
       <File FileName="NancyFxSinatra/Cookies.cs" Line="1" Column="1" />
       <File FileName="NancyFxSinatra/ViewEngines/TemplateWithData.html" Line="1" Column="1" />
       <File FileName="NancyFxSinatra/ViewEngines/ViewTemplates.cs" Line="13" Column="24" />
+      <File FileName="NancyFxSinatra/Routes.cs" Line="12" Column="16" />
+      <File FileName="NancyFxSinatraTests/Test.cs" Line="12" Column="2" />
     </Files>
     <Pads>
-      <Pad Id="ProjectPad">
+      <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
-          <Node name="NancyFxSinatra" expanded="True">
-            <Node name="ViewEngines" expanded="True">
-              <Node name="ViewTemplates.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="NancyFxSinatraTests" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/robertoluis/nancyfxfromsinatra/NancyFxSinatraTests/Test.cs" line="27" column="53" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
