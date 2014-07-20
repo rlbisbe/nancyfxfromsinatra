@@ -24,7 +24,7 @@ namespace NancyFxSinatraTests
 			});
 
 			Assert.AreEqual (HttpStatusCode.OK, result.StatusCode);
-			//Assert.AreEqual ("Response with Put", result.Body);
+			Assert.AreEqual ("Response with Put\n", result.Body.AsString());
 		}
 
 		[Test ()]
