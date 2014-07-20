@@ -16,29 +16,35 @@ namespace NancyFxSinatraTests
 		[Test ()]
 		public void TestPut ()
 		{
+			//Arrange
 			var bootstrapper = new DefaultNancyBootstrapper();
 			var browser = new Browser(bootstrapper);
 
+			//Act
 			var result = browser.Put("/routes", with => {
 				with.HttpRequest();
 			});
 
+			//Assert
 			Assert.AreEqual (HttpStatusCode.OK, result.StatusCode);
 			Assert.AreEqual ("Response with Put\n", result.Body.AsString());
 		}
 
-		[Test ()]
-		public void TestNotFound ()
-		{
-			var bootstrapper = new DefaultNancyBootstrapper();
-			var browser = new Browser(bootstrapper);
+[Test ()]
+public void TestNotFound ()
+{
+	//Arrange
+	var bootstrapper = new DefaultNancyBootstrapper();
+	var browser = new Browser(bootstrapper);
 
-			var result = browser.Delete("/routes", with => {
-				with.HttpRequest();
-			});
+	//Act
+	var result = browser.Delete("/routes", with => {
+		with.HttpRequest();
+	});
 
-			Assert.AreEqual (HttpStatusCode.MethodNotAllowed, result.StatusCode);
-		}
+	//Assert
+	Assert.AreEqual (HttpStatusCode.MethodNotAllowed, result.StatusCode);
+}
 	}
 }
 
