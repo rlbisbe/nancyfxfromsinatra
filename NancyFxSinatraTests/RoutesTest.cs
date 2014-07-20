@@ -10,10 +10,9 @@ namespace NancyFxSinatraTests
 	/// https://github.com/NancyFx/Nancy/wiki/Testing-your-application
 	/// </summary>
 
-	[TestFixture ()]
-	public class Test
+	public class RoutesTest
 	{
-		[Test ()]
+		[Test]
 		public void TestPut ()
 		{
 			//Arrange
@@ -30,21 +29,21 @@ namespace NancyFxSinatraTests
 			Assert.AreEqual ("Response with Put\n", result.Body.AsString());
 		}
 
-[Test ()]
-public void TestNotFound ()
-{
-	//Arrange
-	var bootstrapper = new DefaultNancyBootstrapper();
-	var browser = new Browser(bootstrapper);
+		[Test]
+		public void TestNotFound ()
+		{
+			//Arrange
+			var bootstrapper = new DefaultNancyBootstrapper();
+			var browser = new Browser(bootstrapper);
 
-	//Act
-	var result = browser.Delete("/routes", with => {
-		with.HttpRequest();
-	});
+			//Act
+			var result = browser.Delete("/routes", with => {
+				with.HttpRequest();
+			});
 
-	//Assert
-	Assert.AreEqual (HttpStatusCode.MethodNotAllowed, result.StatusCode);
-}
+			//Assert
+			Assert.AreEqual (HttpStatusCode.MethodNotAllowed, result.StatusCode);
+		}
 	}
 }
 
