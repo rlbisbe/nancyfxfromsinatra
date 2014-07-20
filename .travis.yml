@@ -12,4 +12,4 @@ before_install:
 
 script:
  - xbuild NancyFxSinatra.sln
- - .ci/nunit.sh NancyFxSinatraTests/bin/Debug/NancyFxSinatra.dll
+ - .ci/nunit.sh NancyFxSinatraTests/bin/Debug/NancyFxSinatraTests.dll
